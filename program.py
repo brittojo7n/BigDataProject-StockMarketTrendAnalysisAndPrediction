@@ -171,7 +171,7 @@ AAPL['Daily Return'].hist(bins=100)
 
 # %%
 # Note the use of dropna() here, otherwise the NaN values can't be read by seaborn
-sns.distplot(AAPL['Daily Return'].dropna(), bins=100, color='magenta')
+sns.displot(AAPL['Daily Return'].dropna(), bins=100, color='magenta')
 
 # %% [markdown]
 # Now what if we wanted to analyze the returns of all the stocks in our list? For that, we need to build a DataFrame with all the ['Close'] columns for each of the stocks dataframes.
@@ -358,7 +358,7 @@ for label, x, y in zip(rets.columns, rets.mean(), rets.std()):
 
 # %%
 # Note the use of dropna() here, otherwise the NaN values can't be read by seaborn
-sns.distplot(AAPL['Daily Return'].dropna(),bins=100,color='purple')
+sns.displot(AAPL['Daily Return'].dropna(),bins=100,color='purple')
 
 # %% [markdown]
 # Now we can use quantile to get the risk value for the stock.
@@ -802,7 +802,7 @@ JNJ['Daily Return'] = JNJ['Close'].pct_change()
 
 # %%
 # Note the use of dropna() here, otherwise the NaN values can't be read by seaborn
-sns.distplot(JNJ['Daily Return'].dropna(), bins=100, color='r')
+sns.displot(JNJ['Daily Return'].dropna(), bins=100, color='r')
 
 # %%
 (JNJ['Daily Return'].dropna()).quantile(0.05)
@@ -815,7 +815,7 @@ sns.distplot(JNJ['Daily Return'].dropna(), bins=100, color='r')
 WMT['Daily Return'] = WMT['Close'].pct_change()
 
 # %%
-sns.distplot(WMT['Daily Return'].dropna(), bins=100, color='g')
+sns.displot(WMT['Daily Return'].dropna(), bins=100, color='g')
 
 # %%
 (WMT['Daily Return'].dropna()).quantile(0.05)
@@ -828,7 +828,7 @@ sns.distplot(WMT['Daily Return'].dropna(), bins=100, color='g')
 NKE['Daily Return'] = NKE['Close'].pct_change()
 
 # %%
-sns.distplot(NKE['Daily Return'].dropna(), bins=100, color='b')
+sns.displot(NKE['Daily Return'].dropna(), bins=100, color='b')
 
 
 # %%
