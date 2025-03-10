@@ -5,6 +5,7 @@ seaborn
 yfinance
 scikit-learn
 tensorflow
+pandas_datareader
 appnope
 certifi
 cycler
