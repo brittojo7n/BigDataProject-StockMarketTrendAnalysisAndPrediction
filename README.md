@@ -1,7 +1,31 @@
-# Stock Market Trend Analysis and Prediction
+# 📊 Stock Market Trend Analysis and Prediction
 
-## Introduction
-Stock Market Trend Analysis and Prediction is the project on technical analysis, visualization, and prediction using data provided by Google Finance. By looking at data from the stock market, particularly some giant technology stocks and others. Used pandas to get stock information, visualized different aspects of it, and finally looked at a few ways of analyzing the risk of a stock, based on its previous performance history. Predicted future stock prices through a Monte Carlo method!
+## 📌 Introduction
+**Stock Market Trend Analysis and Prediction** is a project focused on technical analysis, visualization, and forecasting of stock price behavior using historical market data. We use data from Yahoo Finance (via `yfinance`) to study major tech stocks like **Apple, Google, Amazon, Microsoft, and Tesla**.
 
-## Purpose
-The purpose of this project is to comparatively analyze the effectiveness of prediction algorithms on stock market data and get general insight on this data through visualization to predict future stock behavior and value at risk for each stock. The project encompasses the concept of Data Mining and Statistics. This project makes heavy use of NumPy, Pandas, and Data Visualization Libraries.
+This notebook uses:
+- `pandas` for stock data extraction
+- `matplotlib` and `seaborn` for visualization
+- LSTM (Long Short-Term Memory) for deep learning-based time series prediction
+- Monte Carlo simulation for probabilistic risk analysis
+
+---
+
+## 🎯 Purpose
+The aim of this project is to:
+- Analyze and visualize stock market patterns
+- Predict future stock price movements
+- Evaluate risk using statistical simulations
+- Compare algorithm effectiveness
+
+It integrates **Data Mining**, **Statistics**, and **Deep Learning** for practical stock market insights.
+
+---
+
+## ⚙️ Setup & Requirements
+
+### 🧪 Environment
+
+You can run the notebook:
+- Locally using **Jupyter Notebook**
+- OR **Directly on Google Colab** 
