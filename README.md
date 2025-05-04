@@ -1,4 +1,4 @@
-# 📊 Stock Market Trend Analysis and Prediction
+# Stock Market Trend Analysis and Prediction
 
 <br>
 <div align="center">
